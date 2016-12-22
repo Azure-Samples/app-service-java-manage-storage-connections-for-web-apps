@@ -148,9 +148,6 @@ public final class ManageWebAppStorageAccountConnection {
                 System.out.println("CURLing " + app1Url + "/azure-samples-blob-traverser...");
                 System.out.println(curl("http://" + app1Url + "/azure-samples-blob-traverser"));
 
-
-
-
             } catch (Exception e) {
                 System.err.println(e.getMessage());
                 e.printStackTrace();
