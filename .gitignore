@@ -8,8 +8,8 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
-*.war
+# *.jar
+# *.war
 *.ear
 
 # Azure Tooling #
