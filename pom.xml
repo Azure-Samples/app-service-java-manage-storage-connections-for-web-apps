@@ -3,34 +3,30 @@
     <groupId>com.microsoft.azure</groupId>
     <artifactId>app-service-java-manage-storage-connections-for-web-apps</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ManageWebAppStorageAccountConnection</name>
+    <name>ManageWebAppStorageAccountConnection.java</name>
     <description></description>
     <url>https://github.com/Azure/app-service-java-manage-storage-connections-for-web-apps</url>
     <dependencies>
         <dependency>
             <groupId>com.microsoft.azure</groupId>
             <artifactId>azure</artifactId>
-            <version>1.0.0-beta4.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.microsoft.azure</groupId>
-            <artifactId>azure-storage</artifactId>
-            <version>4.4.0</version>
-        </dependency>
-        <dependency>
-            <groupId>commons-net</groupId>
-            <artifactId>commons-net</artifactId>
-            <version>3.3</version>
+            <version>1.0.0-beta5</version>
         </dependency>
     </dependencies>
     <build>
+        <sourceDirectory>src</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>resources</directory>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.4.0</version>
                 <configuration>
-                    <mainClass>com.microsoft.azure.management.appservice.samples.ManageWebAppStorageAccountConnection</mainClass>
+                    <mainClass>com.microsoft.azure.management.appservice.samples.ManageWebAppStorageAccountConnection.java</mainClass>
                 </configuration>
             </plugin>
             <plugin>
@@ -58,7 +54,7 @@
                             </descriptorRefs>
                             <archive>
                                 <manifest>
-                                    <mainClass>com.microsoft.azure.management.appservice.samples.ManageWebAppStorageAccountConnection</mainClass>
+                                    <mainClass>com.microsoft.azure.management.appservice.samples.ManageWebAppStorageAccountConnection.java</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
