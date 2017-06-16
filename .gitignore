@@ -8,8 +8,8 @@
 .mtj.tmp/
 
 # Package Files #
-# *.jar
-# *.war
+*.jar
+*.war
 *.ear
 
 # Azure Tooling #
@@ -35,7 +35,7 @@ local.properties
 # Other Tooling #
 .classpath
 .project
-target
+target/
 .idea
 *.iml
 
