@@ -4,11 +4,12 @@ languages:
 - java
 products:
 - azure
+- azure-app-service
 description: "Azure App Service basic sample for managing web apps."
 urlFragment: app-service-java-manage-storage-connections-for-web-apps
 ---
 
-# Getting Started with Appservice - Manage Web App Storage Account Connection - in Java #
+# Manage Web App Storage Account Connection (Java)
 
 
   Azure App Service basic sample for managing web apps.
